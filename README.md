@@ -1,15 +1,15 @@
-# Passport · 两个 AI Passport 玩法
+# Passport · AI Passport 玩法集
 
 [FoloToy AI Passport](https://ai-passport.folotoy.cn/) 是一块戴在身上的小屏设备：ESP32-C3、8 MB Flash、240×320 屏，右侧三颗实体键。它开放固件，刷进去就能变成别的东西。
 
-这个仓库放的是我在它上面做的两个固件，彼此独立，可以分别构建、分别烧录：
+这个仓库放的是我在它上面做的固件玩法。每个目录是一个独立工程，互不依赖，可以分别构建、分别烧录：
 
 | 目录 | 玩法 | 一句话 |
 | --- | --- | --- |
 | [`focus/`](focus/) | **Focus 番茄钟** | 像素风番茄钟：专注 / 短休 / 长休自动循环，进度是一只被一口口吃掉的水果 |
 | [`baby_english/`](baby_english/) | **宝宝英语** | 离线英语点读卡：60 个学龄前单词，每个词一张插画 + 一段朗读 |
 
-两个目录都是完整的 ESP-IDF 工程，`build/`、`managed_components/` 等构建产物不入库。
+每个目录都是完整的 ESP-IDF 工程，`build/`、`managed_components/` 等构建产物不入库。
 
 ![FoloToy AI Passport](focus/assets/images/home.jpg)
 
@@ -22,7 +22,7 @@
 | 屏幕 | 240×320 ST7789（SPI） |
 | 按键 | 右侧三颗，竖排，下文记为 A（上）/ B（中）/ C（下） |
 | 框架 | ESP-IDF **5.5.3** + LVGL 9 |
-| 音频 | I2S 扬声器 + 麦克风（两个玩法只用到播放） |
+| 音频 | I2S 扬声器 + 麦克风（目前的玩法只用到播放） |
 
 ```sh
 source /path/to/esp-idf-5.5.3/export.sh
@@ -142,6 +142,8 @@ ctest --test-dir build-host --output-on-failure
 
 ## 仓库结构
 
+目录按玩法划分，一个新玩法就是根目录下的一个新工程：
+
 ```
 .
 ├── focus/          # 番茄钟固件（在上游 AI Passport 工作区上改造）
@@ -162,4 +164,4 @@ ctest --test-dir build-host --output-on-failure
 
 - `focus/` 源自 [FoloToy AI Passport](https://gitee.com/FoloToy/ai-passport)（MIT，© 2026 FoloToy）；本目录中的改动是该固件的衍生玩法。
 - `baby_english/` 的源码与素材许可范围各不相同，见其 `SOURCE-NOTICE.md`。公开可见不代表全部内容采用同一种许可。
-- 两个目录里如有冲突，以各自目录下的许可文件为准。
+- 各目录的许可互相独立；如有冲突，以该目录下的许可文件为准。
