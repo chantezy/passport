@@ -1,0 +1,159 @@
+{
+  "title": "学龄前英语常见词",
+  "complete": false,
+  "units": [
+    {
+      "title_zh": "水果",
+      "words": [
+        ["apple", "苹果"],
+        ["banana", "香蕉"],
+        ["orange", "橙子"],
+        ["pear", "梨"],
+        ["grape", "葡萄"],
+        ["peach", "桃子"],
+        ["lemon", "柠檬"],
+        ["tomato", "西红柿"],
+        ["mango", "芒果"],
+        ["cherry", "樱桃"]
+      ]
+    },
+    {
+      "title_zh": "动物",
+      "words": [
+        ["duck", "鸭子"],
+        ["cat", "猫"],
+        ["dog", "狗"],
+        ["pig", "猪"],
+        ["cow", "奶牛"],
+        ["bird", "鸟"],
+        ["fish", "鱼"],
+        ["rabbit", "兔子"],
+        ["bear", "熊"],
+        ["frog", "青蛙"]
+      ]
+    },
+    {
+      "title_zh": "颜色",
+      "words": [
+        ["red", "红色"],
+        ["blue", "蓝色"],
+        ["yellow", "黄色"],
+        ["green", "绿色"],
+        ["black", "黑色"],
+        ["white", "白色"],
+        ["pink", "粉色"],
+        ["brown", "棕色"],
+        ["purple", "紫色"],
+        ["gray", "灰色"]
+      ]
+    },
+    {
+      "title_zh": "数字",
+      "words": [
+        ["one", "一"],
+        ["two", "二"],
+        ["three", "三"],
+        ["four", "四"],
+        ["five", "五"],
+        ["six", "六"],
+        ["seven", "七"],
+        ["eight", "八"],
+        ["nine", "九"],
+        ["ten", "十"]
+      ]
+    },
+    {
+      "title_zh": "身体",
+      "words": [
+        ["eye", "眼睛"],
+        ["ear", "耳朵"],
+        ["nose", "鼻子"],
+        ["mouth", "嘴巴"],
+        ["hand", "手"],
+        ["foot", "脚"],
+        ["face", "脸"],
+        ["hair", "头发"],
+        ["tooth", "牙齿"],
+        ["arm", "胳膊"]
+      ]
+    },
+    {
+      "title_zh": "日常用品",
+      "words": [
+        ["book", "书"],
+        ["ball", "球"],
+        ["cup", "杯子"],
+        ["bed", "床"],
+        ["hat", "帽子"],
+        ["shoe", "鞋"],
+        ["bag", "书包"],
+        ["spoon", "勺子"],
+        ["key", "钥匙"],
+        ["clock", "时钟"]
+      ]
+    }
+  ],
+  "ipa": {
+    "apple": "ˈæpəl",
+    "banana": "bəˈnænə",
+    "orange": "ˈɔrɪndʒ",
+    "pear": "pɛr",
+    "grape": "greɪp",
+    "peach": "pitʃ",
+    "lemon": "ˈlɛmən",
+    "tomato": "təˈmeɪtoʊ",
+    "mango": "ˈmæŋgoʊ",
+    "cherry": "ˈtʃɛri",
+    "duck": "dʌk",
+    "cat": "kæt",
+    "dog": "dɔg",
+    "pig": "pɪg",
+    "cow": "kaʊ",
+    "bird": "bɜrd",
+    "fish": "fɪʃ",
+    "rabbit": "ˈræbɪt",
+    "bear": "bɛr",
+    "frog": "frɔg",
+    "red": "rɛd",
+    "blue": "blu",
+    "yellow": "ˈjɛloʊ",
+    "green": "grin",
+    "black": "blæk",
+    "white": "waɪt",
+    "pink": "pɪŋk",
+    "brown": "braʊn",
+    "purple": "ˈpɜrpəl",
+    "gray": "greɪ",
+    "one": "wʌn",
+    "two": "tu",
+    "three": "θri",
+    "four": "fɔr",
+    "five": "faɪv",
+    "six": "sɪks",
+    "seven": "ˈsɛvən",
+    "eight": "eɪt",
+    "nine": "naɪn",
+    "ten": "tɛn",
+    "eye": "aɪ",
+    "ear": "ɪr",
+    "nose": "noʊz",
+    "mouth": "maʊθ",
+    "hand": "hænd",
+    "foot": "fʊt",
+    "face": "feɪs",
+    "hair": "hɛr",
+    "tooth": "tuθ",
+    "arm": "ɑrm",
+    "book": "bʊk",
+    "ball": "bɔl",
+    "cup": "kʌp",
+    "bed": "bɛd",
+    "hat": "hæt",
+    "shoe": "ʃu",
+    "bag": "bæg",
+    "spoon": "spun",
+    "key": "ki",
+    "clock": "klɑk"
+  },
+  "speech": {}
+}

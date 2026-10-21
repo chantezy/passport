@@ -1,0 +1,16 @@
+{
+  "source": "assets/art/words-sheet.webp",
+  "source_sha256": "b9d681d826c07ca2509cce927143276b167b7f320dc2aaba38b04f6cee95d6a3",
+  "source_width": 1568,
+  "source_height": 1045,
+  "grid": "10x6",
+  "resample": "LANCZOS",
+  "background": "#F7F3E7",
+  "crop": "alpha bounding box, soft edge kept",
+  "width": 112,
+  "height": 112,
+  "count": 60,
+  "format": "RGB565",
+  "bytes": 1505280,
+  "sha256": "b43aa6bfa114301bfec8bc309a16d6c604085ac4e19842629e4f13323cd67dca"
+}

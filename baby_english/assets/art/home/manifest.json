@@ -1,0 +1,12 @@
+{
+  "source": "assets/art/home/home-source.png",
+  "source_sha256": "3dc41ba18946f133ef95ce6233cf3503cf135f68f6220ad67de119441a3d3189",
+  "source_width": 1086,
+  "source_height": 1448,
+  "resample": "LANCZOS",
+  "width": 240,
+  "height": 320,
+  "format": "RGB565",
+  "bytes": 153600,
+  "sha256": "d9d3ffddbbde4a7d71ba49ad63a57ca7cbf0b365897ef954ce0e57e764c90f94"
+}

@@ -1,0 +1,16 @@
+/build*/
+/managed_components/
+/.venv/
+__pycache__/
+/assets/audio/*
+!/assets/audio/voice.bin
+/assets/audio-say/
+/content/research/
+.DS_Store
+.env
+.env.*
+*.pyc
+/sdkconfig
+/sdkconfig.old
+/device-backups/
+*.log

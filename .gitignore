@@ -1,0 +1,15 @@
+.DS_Store
+
+# 构建产物与依赖（各子项目自己的 .gitignore 也会覆盖，这里兜底）
+build/
+build-host/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# 根目录下的临时截图 / 参考图，不随仓库分发
+/baby_english/*.png
+/focus/*.png
+
+# focus/ 的上游 git 目录：只为本地保留历史，不进入本仓库
+/focus/.git-upstream/
